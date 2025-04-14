@@ -24,16 +24,20 @@ pip install messagebox
 pip install colorama
 pip install keyboard
 pip install thread
+```
 
+
+##⚠️ Nota: En algunas versiones de Python, tk y messagebox ya vienen incluidos con tkinter. Si ves errores, intenta instalar solo tkinter con:
 ```bash
-⚠️ Nota: En algunas versiones de Python, tk y messagebox ya vienen incluidos con tkinter. Si ves errores, intenta instalar solo tkinter con:
 pip install tkinter
+```
 
-```bash
+
 ##🚀 Ejecución
 Puedes ejecutar el archivo principal del programa desde tu terminal o entorno de desarrollo favorito:
-python productor_consumidor.py
-
 ```bash
+python productor_consumidor.py
+```
+
 ##📚 Conclusión
 Este proyecto permitió comprender y aplicar conceptos clave de la concurrencia en sistemas operativos, como la sincronización mediante semáforos, evitando condiciones de carrera, interbloqueos e inanición. Además, se desarrolló una interfaz gráfica intuitiva para visualizar en tiempo real el comportamiento del productor y el consumidor.
